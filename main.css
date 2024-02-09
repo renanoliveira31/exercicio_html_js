@@ -9,6 +9,7 @@ h1 {
     margin-bottom: 20px;
     margin-top:20%;
     font-size:50px;
+    color: cadetblue;
 }
 
 .formulario {
@@ -37,6 +38,18 @@ button {
 }
 
 button:hover {
-    background-color: #030303;
+    background-color: cadetblue;
     color: #fff;
+    border-color: cadetblue;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 10px;
+    font-family: Helvetica;
+    transition: 0.2s;
+}
+
+input:hover {
+border-color: cadetblue;
 }
